@@ -1,0 +1,138 @@
+
+body{background-color: white;}
+.parent{
+    display: grid;
+    grid-template-rows: repeat(26, 1fr);
+    grid-template-columns: repeat(16, 1fr);
+    height: 325vh;
+    gap: 4px;
+
+}
+
+
+#div1{
+    border: 5px solid;
+    border-radius: 5px;
+    grid-column: 6/12;
+    grid-row: 2/4;
+    background-image: url(plane.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#div2{
+    grid-column: 8/10;
+    grid-row: 2/3;
+    margin-top: 100px;
+}
+
+#div3{
+   background-color:gray;
+    border: 5px black;
+    border-radius: 5px;
+    grid-column: 2/16;
+    grid-row: 5/9;
+    height: 1688.55px;
+    width: 1309px;
+
+}
+
+#img1{
+  border: 5px solid;
+  height: 414.42px;
+  width: 463.73px;
+
+}
+
+#p1{
+    text-align: center;
+    font-size: 2em;
+}
+
+#img2{
+  margin-left: 100px;
+  margin-top: 100px;
+  height: 260.39px;
+  width: 463.73px;
+}
+
+#p2 {
+  font-weight: bold;
+  font-size: 3em;
+  margin-top: 100px;
+  display: flex;
+  float: right;
+  justify-content: center;
+  text-align: center;
+  width: 661.06px;
+  height: 90.55px;
+}
+
+#p3 {
+  border: 10px solid;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 2em;
+  display: flex;
+  float: right;
+  justify-content: center;
+  width: 600px;
+  height: 550px;
+}
+
+#button {
+  background-color: black;
+  text-align: center;
+  font-size: large;
+  display: flex;
+  border: 5px solid;
+  border-radius: 10px;
+  width: 463.73px;
+  height: 36px;
+  align-content: flex-start;
+  justify-content: flex-start;
+  float: left;
+  padding: 55px;
+  margin-left: 50px;
+  margin-top: 50px;
+  color: black; 
+  text-decoration: none;
+}
+
+#p4{
+  display: flex;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+  font-size: larger;
+}
+
+ 
+ 
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+
